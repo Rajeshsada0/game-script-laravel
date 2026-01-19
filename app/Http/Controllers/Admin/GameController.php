@@ -133,7 +133,7 @@ class GameController extends Controller
 
         $game->update($validated);
 
-        return redirect()->route('admin.games.index')
+        return redirect()->route('games.index')
             ->with('success', 'Game updated successfully!');
     }
 

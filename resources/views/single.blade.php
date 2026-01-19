@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="{{ asset('single.css') }}">
 </head>
 <body>
-<h1>Hello</h1>
     {{-- Navigation Bar --}}
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
